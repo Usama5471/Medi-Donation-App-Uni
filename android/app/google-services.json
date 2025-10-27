@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "318604139036",
+    "project_id": "leafguard-c11fc",
+    "storage_bucket": "leafguard-c11fc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318604139036:android:fd705ea14d632b60381dd9",
+        "android_client_info": {
+          "package_name": "com.leaf_guard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwb52TNptMEkT0hScRTbNY09mxvesV6sI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

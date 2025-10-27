@@ -1,0 +1,67 @@
+name: leaf_guard
+description: A plant health detection app using Flutter and Firebase.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.18.0
+  cloud_firestore: ^4.17.3
+  firebase_storage: ^11.6.4
+
+  http: ^1.2.0
+  path: ^1.9.0
+  permission_handler: ^11.3.0
+  google_fonts: ^6.1.0
+  geolocator: ^10.1.0
+  google_maps_flutter: ^2.5.0
+  image_picker: ^1.0.4
+  speech_to_text: ^6.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/leaf_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/leaf_guard_logo.jpeg
+    - assets/images/plants/rose/
+    - assets/images/plants/aloevera/
+    - assets/images/plants/banyan/
+    - assets/images/plants/basil/
+    - assets/images/plants/cactus/
+    - assets/images/plants/chamomile/
+    - assets/images/plants/fern/
+    - assets/images/plants/fiddle_leaf_fig/
+    - assets/images/plants/hibiscus/
+    - assets/images/plants/jasmine/
+    - assets/images/plants/lavender/
+    - assets/images/plants/marigold/
+    - assets/images/plants/mint/
+    - assets/images/plants/moneyplant/
+    - assets/images/plants/neem/
+    - assets/images/plants/orchid/
+    - assets/images/plants/peepal/
+    - assets/images/plants/pinetree/
+    - assets/images/plants/tulip/
+    - assets/images/plants/tulsi/
+    - assets/fonts/Roboto-Regular.ttf
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto.ttf
